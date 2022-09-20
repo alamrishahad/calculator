@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  margin: 100px auto !important;
+  width: 240px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #485461;
+}
+.tableButtons {
+  text-align: center;
+  margin: 30px auto !important;
+  width: 229px;
+  height: 212px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #b2b9bf;
+}
+
+button {
+  border: none;
+  background-color: #6dadf1;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 24px;
+  color: #fbb034;
+  font-weight: lighter;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.input-somthing {
+  background-color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #021e57;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* 
+.iceCreamHead {
+  background-color: rgba(56, 44, 30, 0.847);
+  width: 150px;
+  height: 200px;
+
+  margin: 50px auto;
+
+  border-radius: 150px 150px 20px 20px;
+} */
+/* .iceCreamHead::after {
+  background-color: rgb(210, 145, 66);
+  width: 50px;
+  height: 150px;
+  bottom: 5px;
+  transform: translateX(-15%);
+  margin: 245px auto !important;
+  z-index: -1;
+  left: 623px;
+  content: "";
+  position: absolute;
+} */
