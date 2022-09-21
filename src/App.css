@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   margin: 100px auto !important;
   width: 240px;
@@ -14,17 +14,21 @@
   height: 212px;
   padding: 5px;
   border-radius: 10px;
-  background-color: #b2b9bf;
+  background-color: #0a0b0b;
 }
 
 button {
+  display: flex;
   border: none;
-  background-color: #6dadf1;
+  background-color: #0d253e;
   cursor: pointer;
   border-radius: 20px;
   font-size: 24px;
-  color: #fbb034;
+  color: #c4c2be;
   font-weight: lighter;
+}
+button :hover {
+  background-color: #a3d7d7;
 }
 
 .App-logo {
@@ -84,6 +88,6 @@ button {
   margin: 245px auto !important;
   z-index: -1;
   left: 623px;
-  content: "";
+  /* content: "";
   position: absolute;
 } */
